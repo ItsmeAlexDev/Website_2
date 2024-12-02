@@ -1,0 +1,24 @@
+.content {
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    cursor: default;
+}
+
+.content > p {
+    font-size: 30px;
+}
+
+.content > #main,
+.content > #lil {
+    text-align: justify;
+}
+
+.content > #lil > .title {
+    margin: 25px;
+    font-weight: 600;
+}
+
+#lil:last-child{
+    margin-bottom: 250px;
+}

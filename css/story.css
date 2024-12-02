@@ -1,0 +1,35 @@
+.content {
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    cursor: default;
+}
+
+.content > p {
+    font-size: 30px;
+}
+
+.content > #main,
+.content > #lil {
+    text-align: justify;
+}
+
+.content > #main {
+    font-size: 30px;
+}
+
+.content > #lil {
+    font-size: 25px;
+    background-color: rgba(173, 216, 230, 0.25);
+    border-color: gray;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 100px;
+    padding: 50px;
+}
+
+.content > #lil > .title {
+    margin: 25px;
+    font-weight: 600;
+}
+
